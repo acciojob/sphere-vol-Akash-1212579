@@ -16,6 +16,7 @@ function volume_sphere(event) {
 
 	 let output = document.getElementById("result");
     output.innerText = volume;
+	return volume;
 }
 
 // Attach function to form submit
