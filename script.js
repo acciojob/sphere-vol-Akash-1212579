@@ -15,7 +15,7 @@ function volume_sphere(event) {
     //output.innerText = `Volume of the sphere: ${volume}`;
 
 	 let output = document.getElementById("result");
-    output.innerText = `Volume of the sphere: ${volume}`;
+    output.innerText = volume;
 }
 
 // Attach function to form submit
